@@ -21,7 +21,7 @@ class App(ctk.CTk):
         self.path = None
 
         self.geometry("400x400")
-        self.title("Video to Audio Converter")
+        self.title("MediaLink")
         self.resizable(False, False)
 
         self.buildApp()
@@ -63,7 +63,7 @@ class App(ctk.CTk):
         self.program_name = ctk.CTkLabel(
                     master=self.frame, 
                     justify=ctk.LEFT, 
-                    text="Video to Audio Converter")
+                    text="MediaLink")
         self.program_name.pack(pady=10, padx=10)
 
         # URL entry
