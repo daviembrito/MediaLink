@@ -34,11 +34,16 @@ class App(ctk.CTk):
             self.print("[WARNING] No URL inserted\n")
             return
 
-        filename = yt.title.replace(' ', '_')
+        try:
+            filename = yt.title.replace(' ', '_')
+        except Exception:
+            self.print(f"[ERROR] Could not download the audio")
+            return
+
         stream = yt.streams.get_audio_only()
         stream.download(filename=f"{filename}.{self.format}", output_path=self.path)
 
-        self.print(f"[OK] Audio download at: {self.path}/{filename}.{self.format}")
+        self.print(f"[OK] Audio downloaded at: {self.path}/{filename}.{self.format}")
 
     # Get download folder path
     def getPath(self):
