@@ -17,4 +17,4 @@ Download the code with `https://github.com/daviembrito/MediaLink.git` and execut
 
 * Choose the desired download folder (current folder as default)
 
-* Click on the download button
+* Click on the convert button
