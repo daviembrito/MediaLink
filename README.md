@@ -13,7 +13,7 @@ Download the code with `git clone https://github.com/daviembrito/MediaLink.git` 
 
 ## **Usage**
 
-* Put a valid Youtube video link
+* Put a valid Youtube video URL
 
 * Choose the desired download folder (current folder as default)
 
