@@ -9,7 +9,7 @@ Download and execute the latest release of [`MediaLink_0.1_setup.exe`](https://g
 
 ### **Python version:**
 
-Download the code with `https://github.com/daviembrito/MediaLink.git` and execute it with `python3 medialink.py`
+Download the code with `git clone https://github.com/daviembrito/MediaLink.git` and execute it with `python3 medialink.py`
 
 ## **Usage**
 
